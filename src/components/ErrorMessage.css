@@ -1,0 +1,26 @@
+.error {
+  color: #ff6b6b;
+  margin-bottom: 20px;
+  font-size: 14px;
+  display: none;
+  padding: 12px;
+  background: rgba(255, 107, 107, 0.2);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 107, 107, 0.5);
+  animation: slideDown 0.3s ease-in;
+}
+
+.error.show {
+  display: block;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

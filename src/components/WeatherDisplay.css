@@ -1,0 +1,76 @@
+.weather {
+  display: none;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.weather.show {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.weather-icon {
+  width: 120px;
+  height: 120px;
+  margin: 20px auto;
+}
+
+.temp {
+  font-size: 72px;
+  font-weight: 700;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.city {
+  font-size: 32px;
+  color: #eee;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.description {
+  color: #bbb;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 10px;
+}
+
+.col img {
+  width: 40px;
+  height: 40px;
+}
+
+.humidity,
+.wind {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.col p:last-child {
+  color: #bbb;
+  font-size: 14px;
+}
