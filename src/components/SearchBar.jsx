@@ -40,7 +40,7 @@ function SearchBar({ onSearch }) {
         onChange={handleChange}
       />
       <button type="submit">
-        <img src="/images/search.png" alt="Search" />
+        <img src="/images/search.svg" alt="Search" />
       </button>
     </form>
   )

@@ -10,14 +10,14 @@ function WeatherDisplay({ data }) {
       <p className="description">{data.description}</p>
       <div className="details">
         <div className="col">
-          <img src="/images/humidity.png" alt="Humidity" />
+          <img src="/images/humidity.svg" alt="Humidity" />
           <div>
             <p className="humidity">{data.humidity}%</p>
             <p>Humidity</p>
           </div>
         </div>
         <div className="col">
-          <img src="/images/wind.png" alt="Wind Speed" />
+          <img src="/images/wind.svg" alt="Wind Speed" />
           <div>
             <p className="wind">{data.wind}km/h</p>
             <p>Wind Speed</p>
